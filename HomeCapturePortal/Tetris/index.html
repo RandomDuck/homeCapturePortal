@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="./resources/game.js" charset="utf-8"></script>
+        <title>Tetris</title>
+        <link rel="icon" href="./resources/img.ico">
+        <link rel="stylesheet" href="./resources/style.css">
+    </head>
+    <body>
+        <div>
+            <div id="mainContainer">
+                <div class="canvDivs left">
+                    <span class="text" id="hold">HOLD</span><br/>
+                    <canvas class="itemCanvas" id="holdCanvas" width="80" height="80"></canvas><br/>
+                    <div style="margin-top: 0.1em; border-top: black solid 0.2em;"></div>
+                    <span class="text" id="scoreCont">Score:<br/><span id="scoreText"></span></span><br/>
+                    <div style="margin-top: 0.1em; border-top: black solid 0.2em;"></div>
+                    <span class="text" id="level">Level:<br/><span id="levelNum">0</span></span>
+                </div>
+                <div id="mainCan">
+                    <canvas id="canvas" width="400" height="700" tabindex=1></canvas>
+                </div>
+                <div class="canvDivs right">
+                    <span class="text" id="next"><b><i>Next:</i></b></span><br/>
+                    <canvas class="itemCanvas" id="TD1" width="100" height="100"></canvas><br/>
+                    <canvas class="itemCanvas" id="TD2" width="80" height="80"></canvas><br/>
+                    <canvas class="itemCanvas" id="TD3" width="80" height="80"></canvas><br/>
+                </div>
+            </div>
+            Tetris music!!
+        </div>
+        <span class="cright">&copy;Johannes Ström</span>
+    </body>
+</html>
